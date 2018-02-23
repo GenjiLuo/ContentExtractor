@@ -1,0 +1,44 @@
+{
+    "name": "klp/contentextractor",
+    "description": "extract usefully data or text from web page",
+    "keywords": [
+        "extractor",
+        "article",
+        "html2article"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+    {
+        "name": "Kenny Luo",
+        "email": "luogenji@hotmail.com"
+    }],
+    "require":
+    {
+        "php": ">=5.6",
+        "illuminate/support": "5.2.*|5.3.*|5.4.*",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "require-dev":
+    {
+        "illuminate/container": "5.2.*|5.3.*|5.4.*",
+        "illuminate/config": "5.2.*|5.3.*|5.4.*"
+    },
+    "autoload":
+    {
+        "psr-4":
+        {
+            "KLP\\ContentExtractor\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "config":
+    {
+        "sort-packages": true,
+        "secure-http": false
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
